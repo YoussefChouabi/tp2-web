@@ -1,0 +1,11 @@
+const readline =require('readline-sync');
+let nombre1 = readline.question("entre votre nombre: ");
+let nombre2 = readline.question("entre votre nombre: ");
+console.log("A= "+nombre1);
+console.log("B= "+nombre2);
+console.log("APRES ");
+nombre1+=nombre2;
+nombre2 =nombre1 -  nombre2;
+nombre1 =nombre1 -  nombre2;
+console.log("A= "+nombre1);
+console.log("B= "+nombre2);
